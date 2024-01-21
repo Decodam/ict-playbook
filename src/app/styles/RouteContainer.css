@@ -1,0 +1,58 @@
+#routeContainer{
+    display: flex;
+    height: 100vh;
+}
+
+.content{
+    flex: 1;
+    overflow-y: scroll;
+}
+
+.container{
+    margin: 15px;
+}
+
+.sidebar{
+    width: 70px;
+    border-right: 1px solid #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.sidebar_logo{
+    cursor: pointer;
+}
+
+.sidebar_profile{
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 30px;
+}
+
+.sidebar_profile:hover{
+    background: #eef0f1;
+}
+
+.sidebar_list__item{
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    margin: 10px 0;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #666666;
+}
+
+.sidebar_list__item:hover{
+    background: #eef0f1;
+}
+
+.active_tab{
+    color: #0080ff;
+}

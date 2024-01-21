@@ -6,3 +6,8 @@
     text-decoration: none !important;
     outline: none !important;
 }
+
+body{
+    height: 100vh;
+    overflow: hidden;
+}

@@ -1,0 +1,17 @@
+#get-started{
+    height: 100vh;
+    display: flex;
+}
+
+.content-left{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background: #a9d4ff;
+}
+
+.content-right{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
